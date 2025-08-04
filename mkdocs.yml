@@ -89,6 +89,8 @@ nav:
     - 第8章 非同期処理と関数型: chapter08/index.md
     - 第9章 実践プロジェクト: chapter09/index.md
   - 付録:
+    - 用語集: appendix/glossary.md
+    - よくある質問: appendix/faq.md
     - TypeScriptの型システム: appendix/typescript-types.md
     - 推奨ライブラリ: appendix/libraries.md
     - 参考文献: appendix/references.md
