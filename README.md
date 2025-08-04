@@ -19,7 +19,7 @@ TypeScriptを使って関数型プログラミングの基礎から実践まで�
 ### 1. リポジトリのクローン
 
 ```bash
-git clone https://github.com/yourusername/easy-fp.git
+git clone https://github.com/kmizu/easy-fp.git
 cd easy-fp
 ```
 
@@ -91,6 +91,6 @@ MIT License
 
 ## 🔗 関連リンク
 
-- [オンラインドキュメント](https://yourusername.github.io/easy-fp/)
+- [オンラインドキュメント](https://kmizu.github.io/easy-fp/)
 - [TypeScript公式ドキュメント](https://www.typescriptlang.org/)
 - [関数型プログラミングリソース](docs/appendix/references.md)

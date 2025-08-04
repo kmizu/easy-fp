@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Kota Mizushima", email = "kmizu.main@gmail.com"}
 ]
 keywords = ["functional-programming", "typescript", "tutorial", "mkdocs"]
 classifiers = [
@@ -27,6 +27,6 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/easy-fp"
-Documentation = "https://yourusername.github.io/easy-fp"
-Repository = "https://github.com/yourusername/easy-fp"
+Homepage = "https://github.com/kmizu/easy-fp"
+Documentation = "https://kmizu.github.io/easy-fp"
+Repository = "https://github.com/kmizu/easy-fp"

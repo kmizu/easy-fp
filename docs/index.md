@@ -47,7 +47,7 @@
 
 ```bash
 # サンプルコードのセットアップ
-git clone https://github.com/yourusername/easy-fp.git
+git clone https://github.com/kmizu/easy-fp.git
 cd easy-fp/examples
 npm install
 ```
@@ -77,7 +77,7 @@ npm test
 
 ## フィードバック
 
-質問や提案がある場合は、[GitHubのIssue](https://github.com/yourusername/easy-fp/issues)でお知らせください。
+質問や提案がある場合は、[GitHubのIssue](https://github.com/kmizu/easy-fp/issues)でお知らせください。
 
 ---
 
