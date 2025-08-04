@@ -1,0 +1,94 @@
+site_name: TypeScriptで学ぶ関数型プログラミング
+site_description: TypeScriptを使って関数型プログラミングの基礎から実践までを学ぶ教材
+site_author: Your Name
+site_url: https://yourusername.github.io/easy-fp/
+
+repo_name: yourusername/easy-fp
+repo_url: https://github.com/yourusername/easy-fp
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+plugins:
+  - search:
+      lang: ja
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: iso_datetime
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/easy-fp
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
+nav:
+  - ホーム: index.md
+  - 入門編:
+    - 第1章 関数型プログラミングの基礎: chapter01/index.md
+    - 第2章 純粋関数と副作用: chapter02/index.md
+    - 第3章 高階関数: chapter03/index.md
+  - 基礎編:
+    - 第4章 関数合成とパイプライン: chapter04/index.md
+    - 第5章 カリー化と部分適用: chapter05/index.md
+    - 第6章 関数型データ構造: chapter06/index.md
+  - 応用編:
+    - 第7章 エラーハンドリング: chapter07/index.md
+    - 第8章 非同期処理と関数型: chapter08/index.md
+    - 第9章 実践プロジェクト: chapter09/index.md
+  - 付録:
+    - TypeScriptの型システム: appendix/typescript-types.md
+    - 推奨ライブラリ: appendix/libraries.md
+    - 参考文献: appendix/references.md
